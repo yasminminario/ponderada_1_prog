@@ -24,3 +24,21 @@
 - **RF06:** O jogo terá notificações para informar os jogadores sobre eventos importantes durante a partida.
   - **CA07:** O sistema deve exibir notificações para avisar sobre a vez de um jogador, fim de rodada e mensagens do chat.
 
+## Requisitos Não Funcionais
+- **RNF01:** O sistema deve ser escalável para suportar um grande número de jogadores simultâneos.
+  - **CA01:** Testes de carga devem comprovar que o sistema suporta pelo menos X jogadores simultâneos sem queda de desempenho.
+- **RNF02:** O tempo de resposta do sistema deve ser inferior a 2 segundos para qualquer ação do usuário.
+  - **CA02:** Nenhuma ação do usuário (chutar uma letra, enviar mensagem no chat, atualizar ranking) deve demorar mais que 2 segundos para refletir na interface.
+  - **CA03:** Testes de desempenho devem comprovar que o tempo de resposta médio está abaixo desse limite.
+- **RNF03:** O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge).
+  - **CA04:** O jogo deve funcionar sem erros em todos os navegadores suportados.
+  - **CA05:** Testes de compatibilidade devem ser realizados antes do lançamento.
+- **RNF04:** O sistema deve passar por testes para garantir a ausência de bugs críticos antes do lançamento.
+  - **CA06:** Deve haver um plano de testes abrangente, incluindo testes unitários, integração e aceitação.
+- **RNF05:** O sistema deve ter alta disponibilidade.
+  - **CA08:** O tempo de inatividade planejado não deve ultrapassar 0,1% do tempo total de operação.
+  - **CA09:** O sistema deve contar com um plano de recuperação em caso de falha.
+
+Fontes: [Games of Codes - Requisitos Corrigido](https://memoria.ifrn.edu.br/bitstream/handle/1044/2060/Games_of_Codes-Requisitos-Corrigido.pdf?sequence=1&isAllowed=y)
+
+Além disso, foi utilizado o Copilot para ajuda com a definição de Critérios de Aceite dos Requisitos Não Funcionais e correção gramatical do texto.
