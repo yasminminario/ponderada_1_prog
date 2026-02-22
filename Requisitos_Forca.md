@@ -35,7 +35,7 @@
   - **Descrição:** A arquitetura do sistema deve ser projetada para escalar conforme a demanda, evitando atrasos ou falhas durante as partidas. Para garantir essa robustez, testes de carga serão realizados para verificar o número máximo de jogadores simultâneos que o sistema suporta.
   - **CA01:** Testes de carga devem comprovar que o sistema suporta pelo menos X jogadores simultâneos sem queda de desempenho.
 - **RNF02:** O tempo de resposta do sistema deve ser inferior a 2 segundos para qualquer ação do usuário.
-  - ** Descrição:** Qualquer ação do jogador, como chutar uma letra, enviar mensagens no chat ou atualizar o ranking, deve ser processada rapidamente. Um tempo de resposta inferior a 2 segundos evita frustrações e garante que a interação com o jogo seja dinâmica.
+  - **Descrição:** Qualquer ação do jogador, como chutar uma letra, enviar mensagens no chat ou atualizar o ranking, deve ser processada rapidamente. Um tempo de resposta inferior a 2 segundos evita frustrações e garante que a interação com o jogo seja dinâmica.
   - **CA02:** Nenhuma ação do usuário (chutar uma letra, enviar mensagem no chat, atualizar ranking) deve demorar mais que 2 segundos para refletir na interface.
   - **CA03:** Testes de desempenho devem comprovar que o tempo de resposta médio está abaixo desse limite.
 - **RNF03:** O sistema deve ser compatível com os principais navegadores (Chrome, Firefox, Safari, Edge).
